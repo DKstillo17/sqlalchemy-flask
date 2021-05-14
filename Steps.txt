@@ -1,0 +1,16 @@
+*Creamos el entorno virtual
+Python3 -m venv venv
+
+*Activar entorno virtual 
+source venv/Scripts/activate
+
+*Instalamos 
+pip install flask 
+pip install flask-sqlalchemy
+pip install flask-marshmallow
+pip install marshmallow-sqlalchemy
+pip install pymysql
+
+*Iniciamos el servidor
+python Src/app.py
+
